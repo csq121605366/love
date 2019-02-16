@@ -35,7 +35,7 @@ html {
 
 .img-figure {
     position: absolute;
-    width: 320px;
+    text-align: center;
     height: 360px;
     margin: 0;
     padding: 40px;
@@ -59,8 +59,8 @@ html {
 
 .img-figure img {
     z-index: 2;
-    height: 240px;
-    width: 240px
+    height: 250px;
+
 }
 
 figcaption {
