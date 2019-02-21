@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>To Miss_nr</title>
+  <title>To 张婧祎</title>
   <link rel="shortcut icon" href="favicon.png">
   <link href="static/css/section1.css" rel="stylesheet">
   <link href="static/css/section2.css" rel="stylesheet">
@@ -15,10 +15,13 @@
 </head>
 
 <body>
-  <audio loop="loop" autoplay="autoplay">
-    <source src="music/love.m4a" type="audio/mpeg" />
-    Your browser does not support the audio element.
+  <audio autoplay="autoplay" hidden="true" loop="loop" preload="auto" src="music/love.aac">
+    你的浏览器版本太低，不支持audio标签
   </audio>
+
+  <!-- <audio loop="loop" src="music/love.aac" autoplay="autoplay" preload="auto">
+    Your browser does not support the audio element.
+  </audio> -->
   <div id="fullPage">
     <div class="section">
       <div id="app">
@@ -345,7 +348,7 @@
       });
     });
 
-    $('audio')[0].volume = 0.8;
+    // $('audio')[0].volume = 0.8;
 
     $("#top").lettering();
     $("#bottom").lettering();
